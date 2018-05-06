@@ -3,7 +3,7 @@ from flask import Flask
 
 from config import CONFIG
 from src.utils import init_logger
-
+from src.blueprint import (USERS_API_BLUEPRINT, ARTISTS_API_BLUEPRINT, TRACKS_API_BLUEPRINT, ALBUMS_API_BLUEPRINT, PLAYLISTS_API_BLUEPRINT  )
 
 import MySQLdb
 import src.requests as req
