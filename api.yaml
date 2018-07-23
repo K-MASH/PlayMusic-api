@@ -30,3 +30,7 @@ skip_files:
   - ^\.git$
   - ^\.vscode$
   - ^configs$
+<<<<<<< HEAD
+=======
+  - venv
+>>>>>>> 56e398933b6be33cd16b746670c99486e4e4af1f
