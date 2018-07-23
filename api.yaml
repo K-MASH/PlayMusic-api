@@ -1,7 +1,8 @@
-service: api
+service: default
 runtime: python27
 api_version: 1
 threadsafe: true
+default_expiration: "10m"
 
 handlers:
 - url: /.*
@@ -30,3 +31,8 @@ skip_files:
   - ^\.git$
   - ^\.vscode$
   - ^configs$
+  - venv-doc
+  - ^launch\.sh$
+  - ^webpack.*\.js$
+  - ^(.*/)?.*\.md$
+  - ^e2e$
