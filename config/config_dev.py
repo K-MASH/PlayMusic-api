@@ -20,6 +20,6 @@ CONFIG = {
     },
     u"app": {
         u"env": u"dev",
-        u"debug": True
+        u"debug": False
     }
 }
