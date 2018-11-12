@@ -1,6 +1,10 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 PROJECT="schneider-poc-cli-final"
+=======
+PROJECT="play-zik"
+>>>>>>> 0c8fd7d074cd476b1ca43e0da6b751e020daffab
 
 if [ -z $1 ] || [ -z $2 ] ; then
 	echo "Usage: $0 <dev|production|acceptance> <version>"
