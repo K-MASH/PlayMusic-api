@@ -43,7 +43,7 @@ CONFIG = {
 }
 =======
         u"env": u"prod",
-        u"debug": True
+        u"debug": False
     }
 }
 >>>>>>> 0c8fd7d074cd476b1ca43e0da6b751e020daffab
