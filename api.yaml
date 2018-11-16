@@ -1,20 +1,13 @@
-<<<<<<< HEAD
-service: api
-runtime: python27
-api_version: 1
-threadsafe: true
-=======
 service: default
 runtime: python27
 api_version: 1
 threadsafe: true
 default_expiration: "10m"
->>>>>>> 0c8fd7d074cd476b1ca43e0da6b751e020daffab
 
 handlers:
 - url: /.*
   script: main.APP
-  login: required
+  #login: required
   secure: always
 
 libraries:
@@ -38,12 +31,8 @@ skip_files:
   - ^\.git$
   - ^\.vscode$
   - ^configs$
-<<<<<<< HEAD
-  - venv
-=======
   - venv-doc
   - ^launch\.sh$
   - ^webpack.*\.js$
   - ^(.*/)?.*\.md$
   - ^e2e$
->>>>>>> 0c8fd7d074cd476b1ca43e0da6b751e020daffab

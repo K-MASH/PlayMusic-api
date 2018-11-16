@@ -2,15 +2,10 @@
 """
 This module contains various utils function at global usage.
 """
-<<<<<<< HEAD
-
-import logging
-
-=======
 import math
 import logging
 import json
->>>>>>> 0c8fd7d074cd476b1ca43e0da6b751e020daffab
+
 
 def init_logger(pattern, pattern_debug, level):
     """
